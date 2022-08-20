@@ -1,0 +1,16 @@
+Backend/Full-Stack
+- Node Fundamentals
+- Express js
+- MongoDB, Mongoose
+- Applications
+- Deployment
+
+Goal
+- Building server-side applications with Node.
+
+Node js
+- Node.js is a very powerful JavaScript-based platform built on Google Chrome's JavaScript V8 Engine. 
+- It is used to develop I/O intensive web applications like video streaming sites, single-page applications, and other web applications. Node.js is open source, completely free, and used by thousands of developers around the world.
+- Environment to run JS outside the browser
+- Uses ES6 or ECMASCRIPT syntax.
+
