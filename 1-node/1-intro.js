@@ -17,5 +17,5 @@ else{
 /* The console.log() method writes/prints/displays (logs) a message to the console. It's useful for testing purposes. */
 
 // please NOTE this ` is not a ' or ""
-console.log(`This is my first node app! Hello world!`)
+console.log(`Hello World! This is my first node app!`)
 
