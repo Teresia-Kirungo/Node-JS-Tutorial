@@ -1,30 +1,25 @@
 /* 
-GLOBALS - NO WINDOW !!!! because there's no console or DOM
-Global variables can be accessed from anywhere
-
- __dirname - path to current directory(file path)
- __filename - file name
- require - function to use modules(files in JS(CommonJS)are also called modules)
- module - info about current module(file)
- process - info about env where the program is executed
-
-
+- Running this code like this will generate a ReferenceError: john is not defined
 */
+const names = require('./4-names-variables')
 
-//this gives you the path to where this file is
-console.log(__dirname)
+// We can deconstruct the above function this way 👇
+// Option 1:
+const {firstName} = require('./4-names-variables')
+const {lastName} = require('./4-names-variables')
 
-// Before:
-hello = function() {
-  return "Hello World!";
-}
+// Importing a function
+const sayHi = require('./5-utils')
 
-// After arrow function
-hello = () => {
-    return "Hello World!";
-  }
+// Option 2: this works
+//sayHi(names.firstName)
+//sayHi(names.lastName)
 
-const sayHi = function (name) {
-    // please NOTE the ` is not the ' 
-    console.log(`Hello there ${name}`)
-}
+console.log(names)
+
+// This line of Code works
+sayHi('Susan')
+
+// This works too remember to use keywords not the data stored in the keyword
+sayHi(firstName)
+sayHi(lastName)

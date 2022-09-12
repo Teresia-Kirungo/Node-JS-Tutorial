@@ -17,5 +17,8 @@ else{
 /* The console.log() method writes/prints/displays (logs) a message to the console. It's useful for testing purposes. */
 
 // please NOTE this ` is not a ' or ""
+// ` this is called a template string
 console.log(`Hello World! This is my first node app!`)
+console.log(__dirname)
+
 
