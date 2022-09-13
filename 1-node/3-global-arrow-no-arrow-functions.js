@@ -24,6 +24,7 @@ hello = () => {
     return "Hello World!";
   }
 
+// a function which is also a variable
 const sayHi = function (name) {
     // please NOTE the ` is not the ' 
     console.log(`Hello there ${name}`)

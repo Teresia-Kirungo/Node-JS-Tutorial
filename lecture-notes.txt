@@ -18,6 +18,7 @@ To execute your code this is how you do it  👇
 node 1-intro 
 When you use the tab is autocompletes on your behalf.
 
+
 __dirname - path to current directory
 __filename - file name
 require - function to use modules(CommonJS)
