@@ -14,9 +14,9 @@ Node js
 - Environment to run JS outside the browser
 - Uses ES6 or ECMASCRIPT syntax.
 
-To execute your code this is how you do it  👇
+To execute your code this is how you do it  👇 
 node 1-intro 
-When you use the tab is autocompletes on your behalf.
+When you use the tab it autocompletes on your behalf.
 
 
 __dirname - path to current directory
