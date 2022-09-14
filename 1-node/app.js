@@ -11,6 +11,8 @@ const sayHi = require('./5-utils.js')
 
 console.log(sayHi)
 
-// sayHi('susan')
-// sayHi(john)
-// sayHi(peter)
+sayHi('susan')
+
+// Call the function while tapping into the keywords to get the values
+sayHi(names.John)
+sayHi(names.Peter)
