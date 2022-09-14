@@ -1,25 +1,12 @@
-/* 
-- Running this code like this will generate a ReferenceError: john is not defined
-*/
-const names = require('./4-names-variables')
+// Common JS, every file in node is a module(by default)
+// Modules - Encapsulated Code(only share minimum - what we want)
 
-// We can deconstruct the above function this way 👇
-// Option 1:
-const {firstName} = require('./4-names-variables')
-const {lastName} = require('./4-names-variables')
+// To import we use rquire; we can use it like that or we can import it into a variable; that's what we are going to do
+// use ../ when the variable is two levels up
+const names = require('./4-names.js')
 
-// Importing a function
-const sayHi = require('./5-utils')
+console.log(names) //checks for a successful names import
 
-// Option 2: this works
-//sayHi(names.firstName)
-//sayHi(names.lastName)
-
-console.log(names)
-
-// This line of Code works
-sayHi('Susan')
-
-// This works too remember to use keywords not the data stored in the keyword
-sayHi(firstName)
-sayHi(lastName)
+// sayHi('susan')
+// sayHi(john)
+// sayHi(peter)
