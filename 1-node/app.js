@@ -7,6 +7,10 @@ const names = require('./4-names.js')
 
 console.log(names) //checks for a successful names import
 
+const sayHi = require('./5-utils.js')
+
+console.log(sayHi)
+
 // sayHi('susan')
 // sayHi(john)
 // sayHi(peter)
