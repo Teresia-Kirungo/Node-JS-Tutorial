@@ -26,3 +26,9 @@ module - info about current module(file)
 process - info about env(environment) where the program is being executed
 
 This is how you check for the above 👉 console.log(__dirname) to which it will give you this D:\Node-JS-Tutorial\lecture-notes.txt
+
+***************Built-in Modules**********
+OS 
+PATH 
+FS - FileSytem Modules
+HTTP 
